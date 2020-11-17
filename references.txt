@@ -1,6 +1,12 @@
 proposal 
 https://docs.google.com/document/d/1g0QJ5cd0KQFkymto0aNzWrAx9Sdsia_yt7m1_Ch7-Ho/edit
 
+github repo
+https://github.com/awyeh64/Scholarly_Recommender
+
+github kanban board
+https://github.com/awyeh64/Scholarly_Recommender/projects
+
 data field descriptions
 https://www.nlm.nih.gov/bsd/mms/medlineelements.html
 
