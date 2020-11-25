@@ -1,26 +1,44 @@
 # Scholarly Recommender
+___
+
+
+# Introduction
+
 
 This project is called the Scholarly Data Recommender, and it is a recommender system model in the form of a search engine where if a user inputs a keyword, it will pull scholarly data from the National Center for Biotechnology Information, recommend several documents that are the most relevant to the keyword, and then provides extra analytics on the scholarly network so that the user can further expand their research.
 
+
 First, I should explain a bit on what scholarly data is. Normally, the data we work with is solely related to our individual projects.
+
+
 ![normal data](reports/figures/normal_data.png)
 
 
 However, "scholarly" data is a term created recently for databases which not only include the project data, but also metadata such as authors, papers, citations, figures, tables, etc.  (It is known as "scholarly" due to its main use by academics)
+
+
 ![scholarly data](reports/figures/scholarly_data.png)
 
 
 By combining information on scholarly data, we are able to form what is called a scholarly network, which can be a network of authors, journals, institutions, etc. that are connected together through collaborative works and relationships. By understanding this, we can learn about things outside of the projects such as how researchers interact with each other, find relationships between researchers hidden in citation networks, observe impact of funding in an institution, or allocate resources to different departments.  However, for the purposes of this project, our goal is simply to explore our own scholarly network by looking at extra authors or journals that could be helpful for research topics.
+
+
 ![scholarly network](reports/figures/scholarly_network.png)
+
 
 For our model, we will use the NCBI, or the National Center for Biotechnology Information as our data source.  This is a vast online resource containing an innumerable amount of documents, all relating to biology and medicine.
 
+
 When it comes to data extraction however, we will want to use Entrez which is NCBI's primary text search and retrieval system.  This has a very convenient python package that lets us pull scholarly data from the NCBI servers directly to our notebooks.
 
+
 Putting it all together, our code submits a keyword using the entrez python package, and in the case of this example, we will be using the term 'hay fever'; entrez will search NCBI for any documents relating to hay fever and return anything that it can find for us to input into our dataframes.
+
+
 ![data scraping](reports/figures/data_scraping.png)
 
-to begin we can do some simple exploratory data analysis; here we can view the authors that contributed the most amount of publications to our search term
+
+To begin we can do some simple exploratory data analysis. here we can view the authors that contributed the most amount of publications to our search term
 
 next we can look at the number of publications in the past century; as seen , the number of submitted publications peaked at around 2010 but has slowly gone down ever since; this could be due to lack of interest after enough research has been done or just that the collection of documents is incomplete
 
