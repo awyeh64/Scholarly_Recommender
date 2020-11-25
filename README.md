@@ -9,6 +9,8 @@ Normally, the data we work with is solely related to our individual projects.
 
 However, "scholarly" data is a term created recently for databases which not only include the project data, but also metadata such as authors, papers, citations, figures, tables, etc.  
 it is known as "scholarly" due to its main use by academics
+![scholarly data](reports/figures/scholarly_data.png)
+
 
 By combining information on scholarly data, we are able to form what is called a scholarly network, which can be a network of authors, journals, institutions, etc. that are connected together through collaborative works and relationships
 By understanding this, we can learn about things outside of the projects such as how researchers interact with each other, find relationships between researchers hidden in citation networks, observe impact of funding in an institution, or allocate resources to different departments.
