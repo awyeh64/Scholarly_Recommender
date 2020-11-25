@@ -100,3 +100,4 @@ Next would be to look at sunplots, here we have the journals that have published
 
 # Future Steps and Post MVP Goals
 
+Things that I would like to work on still are more visuals, specifically visuals utilizing the javascript D3 library as well as to implement this model on a website using Flask.  Extra goals could include utilizing the abstract column in my NLP model as well to see if it would increase model performance.
