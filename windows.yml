@@ -1,6 +1,7 @@
 name: windows
 channels:
   - saravji
+  - plotly
   - conda-forge
   - anaconda
   - defaults
@@ -17,6 +18,7 @@ dependencies:
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.1=py_0
   - beautifulsoup4=4.8.2=py36_0
+  - biopython=1.78=py36he774522_0
   - blas=1.0=mkl
   - bleach=3.1.5=pyh9f0ad1d_0
   - blinker=1.4=py36_0
@@ -137,22 +139,26 @@ dependencies:
   - mkl-service=2.3.0=py36hb782905_0
   - mkl_fft=1.1.0=py36h45dec08_0
   - mkl_random=1.1.1=py36h47e9c7a_0
+  - more-itertools=8.6.0=pyhd8ed1ab_0
   - msys2-conda-epoch=20160418=1
   - multidict=4.7.6=py36he774522_1
   - munch=2.5.0=py_0
   - nbconvert=5.6.1=py36_0
   - nbformat=5.0.7=py_0
+  - networkx=2.5=py_0
   - nltk=3.4.5=py36_0
   - nodejs=10.13.0=0
   - notebook=5.3.1=py36_2
   - numpy=1.19.1=py36h5510c5b_0
   - numpy-base=1.19.1=py36ha3acd2a_0
+  - nxviz=0.6.2=py36ha15d459_2
   - oauthlib=3.1.0=py_0
   - olefile=0.46=pyh9f0ad1d_1
   - openjpeg=2.3.0=h5ec785f_1
   - openssl=1.1.1h=he774522_0
   - opt_einsum=3.1.0=py_0
   - packaging=20.4=pyh9f0ad1d_0
+  - palettable=3.3.0=py_0
   - pandas=0.25.3=py36ha925a31_0
   - pandoc=2.10.1=he774522_0
   - pandocfilters=1.4.2=py_1
@@ -163,6 +169,7 @@ dependencies:
   - pillow=7.2.0=py36hcc1f983_0
   - pip=20.2.1=py36_0
   - plotly=4.1.1=py_0
+  - plotly_express=0.4.1=py_0
   - pmdarima=1.2.0=py36hdc6a1f8_7
   - postgresql=11.2=h3235a2c_0
   - proj=6.2.1=h9f7ef89_0
@@ -199,6 +206,7 @@ dependencies:
   - rsa=4.6=py_0
   - rtree=0.9.4=py36h21ff451_1
   - s3transfer=0.3.3=py36_0
+  - scikit-learn=0.23.2=py36h47e9c7a_0
   - scipy=1.5.0=py36h9439919_0
   - seaborn=0.11.0=py_0
   - send2trash=1.5.0=py_0
@@ -220,6 +228,7 @@ dependencies:
   - termcolor=1.1.0=py36_1
   - terminado=0.8.3=py36h9f0ad1d_1
   - testpath=0.4.4=py_0
+  - threadpoolctl=2.1.0=pyh5ca1d4c_0
   - tiledb=1.6.3=h7b000aa_0
   - tk=8.6.10=he774522_0
   - tornado=5.1.1=py36hfa6e2cd_0
@@ -254,11 +263,9 @@ dependencies:
     - keras-tuner==1.0.1
     - pandasql==0.7.3
     - psycopg2==2.8.5
-    - scikit-learn==0.23.2
     - sqlalchemy==1.3.19
     - tabulate==0.8.7
     - terminaltables==3.1.0
-    - threadpoolctl==2.1.0
     - tqdm==4.51.0
     - xrd==0.1
 prefix: Y:\Users\awyeh\anaconda3\envs\windows
