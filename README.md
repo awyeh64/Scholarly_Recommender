@@ -1,6 +1,12 @@
 # Scholarly Recommender
 ___
 
+# Table of Contents
+- [Presentation Notebook](https://github.com/awyeh64/Scholarly_Recommender/blob/main/notebooks/report/report_notebook.ipynb)
+- [Presentation Powerpoint]( https://github.com/awyeh64/Scholarly_Recommender/blob/main/reports/Scholarly_Recommender_PowerPoint.pdf)
+- [EDA](https://github.com/awyeh64/Scholarly_Recommender/blob/main/notebooks/exploratory/eda_fsm.ipynb)
+
+
 
 # Introduction
 
