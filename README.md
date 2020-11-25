@@ -1,9 +1,11 @@
 # Scholarly Recommender
 
-This project is called the Scholarly Data Recommender, and it is a recommender system model in the form of a search engine where if a user inputs a keyword, it will pull scholarly data from the National Center for Biotechnology Information, recommends several documents that are the most relevant to the keyword, and then provides extra analytics on the scholarly network so that the user can further expand their research.
+This project is called the Scholarly Data Recommender, and it is a recommender system model in the form of a search engine where if a user inputs a keyword, it will pull scholarly data from the National Center for Biotechnology Information, recommend several documents that are the most relevant to the keyword, and then provides extra analytics on the scholarly network so that the user can further expand their research.
 
 First, I should explain a bit on what scholarly data is.
 Normally, the data we work with is solely related to our individual projects.
+![normal data](reports/figures/normal_data.png)
+
 
 However, "scholarly" data is a term created recently for databases which not only include the project data, but also metadata such as authors, papers, citations, figures, tables, etc.  
 it is known as "scholarly" due to its main use by academics
