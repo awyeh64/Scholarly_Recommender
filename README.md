@@ -2,7 +2,7 @@
 ___
 
 # Table of Contents
-- [Presentation Notebook](notebooks/report/report_notebook.pynb)
+- [Presentation Notebook](notebooks/report/report_notebook.ipynb)
 - [Presentation Powerpoint](reports/Scholarly_Recommender_PowerPoint.pdf)
 - [EDA](notebooks/exploratory/eda_fsm.ipynb)
 
@@ -26,7 +26,7 @@ As a sanity check, we can check the list of environments to see if it was set pr
 conda env list
 ```
 
-Finally, we can head over to the ![report notebook](notebooks/report/report_notebook.pynb) to run the actual code.
+Finally, we can head over to the ![report notebook](notebooks/report/report_notebook.ipynb) to run the actual code.
 
 
 
