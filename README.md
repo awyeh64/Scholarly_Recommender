@@ -7,9 +7,7 @@ ___
 - [EDA](notebooks/exploratory/eda_fsm.ipynb)
 
 
-# Reproduction Instructions
-
-(2) Reproduction instructions.  We did not emphasize these so much this time around, so we are being more lenient in general and not making a pass/fail decision based on a lack of reproduction instructions alone.  But to be clear, you should have instructions on what OS you’re running and how to install the packages in your .yml file.  This is listed under the “README Content” rubric item
+# Instructions
 
 I will be using Python version 3.6.9, and version 4.9.2 of Anaconda, a major Python package distribution platform.  In the current version of this project, only Windows OS is known to be 100% supported; unsure if everything works properly on MacOS due to limited testing equipment.
 
