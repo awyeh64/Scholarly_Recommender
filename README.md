@@ -11,10 +11,13 @@ ___
 
 (2) Reproduction instructions.  We did not emphasize these so much this time around, so we are being more lenient in general and not making a pass/fail decision based on a lack of reproduction instructions alone.  But to be clear, you should have instructions on what OS you’re running and how to install the packages in your .yml file.  This is listed under the “README Content” rubric item
 
-
+```
 conda env create -f environment.yml
-conda activate myenv
+```
 
+```
+conda activate myenv
+```
 
 ```
 conda env list
