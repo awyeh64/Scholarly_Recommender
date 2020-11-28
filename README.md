@@ -2,26 +2,34 @@
 ___
 
 # Table of Contents
-- [Presentation Notebook](https://github.com/awyeh64/Scholarly_Recommender/blob/main/notebooks/report/report_notebook.ipynb)
-- [Presentation Powerpoint]( https://github.com/awyeh64/Scholarly_Recommender/blob/main/reports/Scholarly_Recommender_PowerPoint.pdf)
-- [EDA](https://github.com/awyeh64/Scholarly_Recommender/blob/main/notebooks/exploratory/eda_fsm.ipynb)
+- [Presentation Notebook](notebooks/report/report_notebook.pynb)
+- [Presentation Powerpoint](reports/Scholarly_Recommender_PowerPoint.pdf)
+- [EDA](notebooks/exploratory/eda_fsm.ipynb)
 
 
-# Installation Steps
+# Reproduction Instructions
 
 (2) Reproduction instructions.  We did not emphasize these so much this time around, so we are being more lenient in general and not making a pass/fail decision based on a lack of reproduction instructions alone.  But to be clear, you should have instructions on what OS you’re running and how to install the packages in your .yml file.  This is listed under the “README Content” rubric item
 
+I will be using Python version 3.6.9, and version 4.9.2 of Anaconda, a major Python package distribution platform.  In the current version of this project, only Windows OS is known to be 100% supported; unsure if everything works properly on MacOS due to limited testing equipment.
+
+To reproduce this model, first run this line of code in your terminal in the project directory to import the conda environment that I used.  This will download all the extra packages that I utilized throughout my project and create a new conda environment named 'windows' on your local computer.
 ```
-conda env create -f environment.yml
+conda env create -f windows.yml
 ```
 
+Next to actually set it as your active environment, run the following line.
 ```
-conda activate myenv
+conda activate windows
 ```
 
+As a sanity check, we can check the list of environments to see if it was set properly.
 ```
 conda env list
 ```
+
+Finally, we can head over to the ![report notebook](notebooks/report/report_notebook.pynb) to run the actual code.
+
 
 
 # Introduction
