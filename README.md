@@ -1,5 +1,5 @@
 # Scholarly Recommender
-___
+
 
 # Table of Contents
 - [Presentation Notebook](notebooks/report/report_notebook.ipynb)
@@ -90,13 +90,13 @@ Next we can look at the number of publications in the past century.  It seems li
 To actually choose significant documents, we want documents that are high quality enough to have made an impact on the academic community.  A good metric for determining this is by how many times a document has been referenced or cited by others, as a document that has been widely used is sure to be significant.
 
 
-However an issue that we have is that not all documents have reference numbers.  This could simply be because that the document hasn't been exposed to certain communities yet, and since we don't want to disregard the fact that an unknown person in the middle of nowhere could still write an amazing paper, we can use NLP with a logistic regression model and have its significance as its target variable.  With our model, we want to focus on precision, as we want to make sure the documents the model classifies are truly positive.
+However an issue that we face is that a good amount of documents do not come with a reference number.  This could simply be because that the document hasn't been exposed to certain communities yet for scientific review, and since we don't want to disregard the fact that an unknown person in the middle of nowhere could still write an amazing paper, I will use a classification model to predict whether or not a document with a NaN as their reference number can be considered 'significant' enough to be utilized in a recommendation system.  For our inputs, we will use NLP on the abstract of each document; for our metrics, we will be solely focusing on precision as we want to be sure that the documents that we classify as significant are truly relevant enough to use.
 
 
 # Finding Recommended Documents
 
 
-After using our model to predict significance of unknown documents, we can merge them back with the other data and choose the document with the most reference numbers out of the documents that we consider significant. In this case we have the document Allergic Rhinitis and its Impact on Asthma.
+After using our model to predict the significance of unknown documents, we can merge them back with the other data and choose the document with the most reference numbers out of the documents that we consider significant. In this case we have the document Allergic Rhinitis and its Impact on Asthma.
 
 
 ![best](reports/figures/best.png)
