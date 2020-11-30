@@ -1,5 +1,5 @@
 # Scholarly Recommender
-___
+
 
 # Table of Contents
 - [Presentation Notebook](notebooks/report/report_notebook.ipynb)
